@@ -26,13 +26,20 @@ $('.slider-for').slick({
   arrows: false,
   fade: true,
   asNavFor: '.slider-nav'
- 
 });
+
 
 $('a[data-slide]').click(function(e) {
   e.preventDefault();
   var slideno = $(this).data('slide');
   $('.slider-for').slick('slickGoTo', slideno - 1);
+});
+
+$('.slider-for').on('afterChange', function() {
+  a.removeClass('active')
+  let dataId = $('.slick-current').attr("data-slick-index");
+  $($('.nav-holder a')[dataId]).addClass('active')
+  console.log(dataId);
 });
 
 /* ---------- Fit lucy-text to container ---------- */

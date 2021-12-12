@@ -883,14 +883,14 @@ h2:focus {
 
 /*odd number borders*/
 .project-line:nth-child(odd) {
-    border-right: 5px solid;
+    border-right: 4px solid;
     padding-left: 0;
 
 }
 
 /*even number borders*/
 .project-line:nth-child(even) {
-    border-left: 5px solid;
+    border-left: 4px solid;
     padding-right: 0;
 }
 
