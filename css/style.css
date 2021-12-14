@@ -254,31 +254,29 @@ p {
 }
 
 .russian:hover {
-    background-color: transparent;
+    background-color: #13152f;
     color: white;
 
 }
 
 .english:hover {
     background-color: transparent;
-    color: white;
+    color: transparent;
 
 }
 
 .bulgarian:hover {
-    background-color: transparent;
+    background-color: #13152f;
     color: white;
-
 }
 
 .lang-active:hover {
     background-color: transparent;
     color: transparent;
-
 }
 
 .english {
-    background-color: #E58801;
+    background-color: #B40000;
     color: white;
 }
 
@@ -550,8 +548,8 @@ footer {
 
 /* ---------- LINKS FOOTER ---------- */
 .links {
-    padding-top: 1.5vh;
-    padding-bottom: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 1.5vh;
 
     justify-content: center;
     align-items: center;
@@ -619,8 +617,10 @@ footer {
     text-decoration: none;
     font-family: comic;
     /* font-size: calc(9px + (22 - 9) * ((100vw - 200px) / (2000 - 200)));*/
-    font-size: 0.65em;
+    font-size: 0.59em;
     color: #212529;
+    margin-left: 2vw;
+    text-align: justify;
 
 }
 
@@ -914,7 +914,7 @@ h2:focus {
 
 .project-photo-odd {
     height: 11.5em;
-    border: 2px solid white;
+    border: 2.5px solid white;
     border-radius: 0.1rem;
     justify-content: center;
     margin: auto;
@@ -922,7 +922,7 @@ h2:focus {
 
 .project-photo-even {
     height: 11em;
-    border: 2px solid white;
+    border: 2.5px solid white;
     border-radius: 0.1rem;
     justify-content: center;
     margin: auto;

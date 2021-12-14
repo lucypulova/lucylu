@@ -90,7 +90,7 @@ $(document).scroll(function() {
   var y = $(this).scrollTop(); //how many pixels the user scrolled
   if (y >700) {
     //underlines the text once the user scrolls past 100px
-    $('.project-text-animation-2').css('background-size','100% 1.8em, 0 0.1em');    /*0 0.1em, 100% 0.1em for rainbol*/
+    $('.project-text-animation-2').css('background-size','100% 1.5em, 0 0.1em');    /*0 0.1em, 100% 0.1em for rainbol*/
   } 
   else {
     //reverts it back to normal if the user came back to to the "below 100px" position
