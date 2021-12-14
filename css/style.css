@@ -624,6 +624,17 @@ footer {
 
 }
 
+.lucy-text-bg {
+    text-decoration: none;
+    font-family: comic;
+    /* font-size: calc(9px + (22 - 9) * ((100vw - 200px) / (2000 - 200)));*/
+    font-size: 0.55em;
+    color: #212529;
+    margin-left: 2vw;
+    text-align: justify;
+
+}
+
 /*
 .curly-brackets {
     height: 30vw;
@@ -933,6 +944,14 @@ h2:focus {
     text-decoration: none;
 }
 
+.project-p-bg {
+    margin: 1vw 4vw;
+    text-decoration: none;
+    font-size: 0.90em;
+    line-height: 1.72em;
+}
+
+
 .project-p-underline1 {
 
     display: inline-block;
@@ -970,6 +989,16 @@ h2:focus {
     text-decoration: none;
     color: #212529;
 
+}
+
+.projects-link {
+    text-decoration: none;
+    color: #0a58ca;
+}
+
+
+.projects-link:hover {
+    color: black;
 }
 
 /* ---------- Graphics ---------- */
