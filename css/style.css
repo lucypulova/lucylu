@@ -621,6 +621,7 @@ footer {
     color: #212529;
     margin-left: 2vw;
     text-align: justify;
+    line-height: 1.61em;
 
 }
 
@@ -632,6 +633,7 @@ footer {
     color: #212529;
     margin-left: 2vw;
     text-align: justify;
+    line-height: 1.61em;
 
 }
 
@@ -1290,6 +1292,12 @@ label.fcf-label {
         text-align: center;
     }
 
+    .lucy-text-bg {
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+    }
+
     .project-line {
         display: inline-block;
         /*numbers*/
@@ -1305,6 +1313,12 @@ label.fcf-label {
     }
 
     .project-p {
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .project-p-bg {
         margin: auto;
         justify-content: center;
         text-align: center;
