@@ -538,13 +538,18 @@ footer {
 .footer-paragraf-mobile {
     font-size: 0.5em;
     padding-top: 2vh;
+
+}
+
+.mobile-phone {
+    text-decoration: none;
+    color: white;
 }
 
 .footer-paragraf-name {
     font-size: 0.6em;
     padding-top: 1vh;
 }
-
 
 /* ---------- LINKS FOOTER ---------- */
 .links {
@@ -572,7 +577,7 @@ footer {
 }
 
 .links a:hover {
-    color: #7299c2;
+    color: #0e50c6;
 
 }
 
