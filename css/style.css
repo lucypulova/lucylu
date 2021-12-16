@@ -1243,6 +1243,10 @@ label.fcf-label {
         height: 4vh;
 
     }
+
+    .papre-boat {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1326,6 +1330,10 @@ label.fcf-label {
 
     .footer-text {
         padding-bottom: 2vh;
+    }
+
+    .papre-boat {
+        display: none;
     }
 
 }
