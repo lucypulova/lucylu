@@ -361,6 +361,23 @@ p {
 }
 
 
+.bg a {
+    width: 20%;
+    height: 10vh;
+    /* border: 1px solid #000;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    font-size: 0.85em;
+    font-family: comic;
+    color: white;
+    text-align: center;
+
+    position: relative;
+}
+
 /* ---------- NAV Highlihting ---------- */
 
 .nav-holder a::before {
@@ -381,6 +398,11 @@ p {
 .nav-holder a.active {
     color: #161e49;
     font-size: 0.98em;
+}
+
+.bg a.active {
+    color: #161e49;
+    font-size: 0.89em;
 }
 
 .nav-holder a.active::before {
